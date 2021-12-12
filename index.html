@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>ESMON STORE</title>
+</head>
+
+<body>
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ESMON STORE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Promo</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Produk
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Kaos</a></li>
+                            <li><a class="dropdown-item" href="#">Jersey</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Headset</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="button" data-bs-toggle="modal" data-bs-target="#ModalLogin">Masuk</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--akhir Navigation bar-->
+
+    <!--Header-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/headset.jpg" class="d-block w-100" alt="Jersey">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Jersey ESMON ESPORT</h5>
+                    <p>Dapatkan Jersey ESMON Team Original hanya disini</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/jersey-european-super-league_169.jpeg" class="d-block w-100" alt="Headset">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Headset </h5>
+                    <p>Custom Nama Mu Di Headset kesayangan mu</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">sebelumnya</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">selanjutnya</span>
+        </button>
+    </div>
+    <!--akhir Header-->
+
+    <!--Content-->
+    <div class="container">
+        <div class="text-center fs-2 fw-bold">
+            Produk Kami
+        </div>
+        <div class="row p-4 text-dark d-flex justify-content-center align-item-center">
+            <div class="col bg-light ">
+                <div class="card" style="width: 15rem;">
+                    <img src="./img/RRQ.jpg" class="card-img-top" alt="...">
+                </div>    
+            </div>
+            <div class="col bg-light">
+                <div class="card" style="width: 15rem;">
+                    <img src="./img/RRQ.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col bg-light">
+                <div class="card" style="width: 15rem;">
+                    <img src="./img/RRQ.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col bg-light">
+                <div class="card" style="width: 15rem;">
+                    <img src="./img/RRQ.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="row bg-light p-4 text-dark">
+            Content 3
+        </div>
+        <div class="row bg-light p-4 text-dark">
+            <div class="text-center fs-2 fw-bold">
+               Alamat
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Outlet</th>
+                        <th scope="col">Alamat</th>
+                        <th scope="col">Jam</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mangga Dua</td>
+                        <td>Mall Mangga Dua</td>
+                        <td>09.00-15.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Karawaci</td>
+                        <td>SuperMall Karawaci</td>
+                        <td>09.00-15.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Kelapa Gading</td>
+                        <td>MOI (Mall Of Indonesia)</td>
+                        <td>09.00-15.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--akhir Content-->
+
+    <!--Footer-->
+    <div class="row bg-dark p-5 text-white">
+        <div class="text-center">
+            <i class="bi bi-telephone-inbound">
+                089630133210
+            </i>
+        </div>
+        <div class="text-center">
+            <i class="bi bi-envelope">
+                esmonesport@gmail,com
+            </i>
+        </div>
+    </div>
+<!--modal-->
+    <div class="modal" tabindex="-1" id="ModalLogin">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--akhir modal-->
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
